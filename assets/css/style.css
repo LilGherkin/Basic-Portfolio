@@ -1,0 +1,25 @@
+header {
+    position: relative;
+    float: left;
+    background-color: purple;
+    width: 100%
+}
+
+.jumbotron {
+    background-color: gold;
+    float: left;
+    z-index: 2;
+}
+
+.navigation {
+    background-color: white;
+    float: right;
+}
+
+section {
+    background-color: green;
+}
+
+#about {
+    float: left;
+}
