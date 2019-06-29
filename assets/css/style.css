@@ -1,3 +1,5 @@
+/* Clears default browser settings */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,46 +44,70 @@ table {
 	border-spacing: 0;
 }
 
-/* Rest of the actual CSS */
+/* Begin Actual CSS */
 
-
+body {
+    justify-content: center;
+    background-image: url(../images/papyrus.png);
+    background-repeat: repeat;
+}
 
 header {
-    display: flex;
+    margin: auto;
     justify-content: center;
-    background-color: purple;
-    width: 100%
+    display: block;
+    background-color: yellow;
+    width: 960px;
 }
 
-.jumbotron {
-    width: 860px;
-    display: inline-block;
-    background-color: gold;
+li {
     float: left;
-    z-index: 2;
+  }
+  
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+img {
+    float: left;
+  }
+
+footer {
+    background-color: #666666;
+    width: 100%;
 }
 
-.name {
-    float: left;
+.header {
+    width: 960px;
+    margin: auto;
 }
 
 .navigation {
+    display: block;
+    margin: auto;
     float: right;
 }
 
-.navigation {
-    background-color: white;
-    float: right;
+.myname {
+    display: block;
+    float: left;
+    margin: auto;
 }
 
 section {
-    background-color: green;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    display: block;
+    background-color: red;
+    width: 960px;
 }
 
-#about {
-    float: left;
-}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
-#picture {
-    float: left;
-}
