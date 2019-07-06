@@ -3,52 +3,66 @@
 
 <head>
 
-<title>Mark Hartman Contact</title>
-
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Mark Hartman</title>
+    <meta lang="en-us">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     
 </head>
 
 <body>
 
-
 <!-- Header section with navigation menu-->
-<header class="clearfix">
-        <div class="headbox">
-            <div class="myname">Mark Hartman</div>
-        
-            <div class="navigation">
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
+<header class="Header">
+<div class="HeadContainer"></div>
+    <a href="index.html" id="Logo">Mark Hartman</p>
+    <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</div>
 </header>
-    
+
 <!-- Primary page content-->
-<section class="clearfix">
-    <div class="content">
-        <form>
-            Name:<br>
-            <input type="text" name="Name"><br>
-            Email:<br>
-            <input type="text" name="email"><br>
-            Message:<br>
-            <input type="text" name="Message">
-        </form>
-    <button type="button">Submit</button>
-    </div>
+<section class="BodyContainer">
+    
+    <h1>Contact</h1>
+    
+    <form id="ContactForm">
+        <ul>
+            <li>
+                <label for="name">Name</label>
+                <br>
+                <input type="text" name="Name" placeholder="John Smith">
+            </li>
+            <li>
+                <label for="email">Email</label>
+                <br>
+                <input type="email" name="Email" placeholder="JohnSmith@gmail.com">
+            </li>
+            <li>
+                <label for="Message">Message</label>
+                <br>
+                <input type="text" name="Message" placeholder="Write message here.">
+            </li>
+            <li>
+            <input type="submit" value="Submit">
+            </li>
+        </ul>
+    </form>
+
+
 </section>
-    
-    
-    <!-- Footer section-->
-    
+
+
+<!-- Footer section-->
+
 <footer>
-    Copyright
+    <div class="Footer">
+        &copy; Copyright 2019 Mark Hartman
+    </div>
 </footer>
-    
+
 </body>
-    
+
 </html>
